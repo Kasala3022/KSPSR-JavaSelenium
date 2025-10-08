@@ -6,3 +6,39 @@ oracle.com
  click and install the java 
  go to local folder java will displays downloded jdk copy the path---->go to system properities in this 
  select ---->Environment variables--->system variables add new enter the copy jdk path save.
+ 
+ 1.https://mvnrepository.com/
+   in this all type of libraries will available.
+ 
+ 2.Creating of maven project 
+ 
+ click on project right click --->configure --->convert to mavan project
+ 
+ pom.xml will create ---->pom.xml heart of mavan project
+ 
+ <version>0.0.1-SNAPSHOT</version>
+ <dependencies>
+ </dependencies>
+  <build>
+  
+  ---->Inside of version and build in between create the dependencies
+  
+  3. copy the selenium dependencies from Mavan repository past it in pom.xml inside dependencies and click on cntrl+s automatically selenium libraries 
+  (Mavan dependencies folder will create) .
+  
+  4.copy the selenium dependencies from Mavan repository past it in pom.xml inside dependencies and click on cntrl+s automatically Testng.
+  libraries displays in side Mavan dependencies folder 
+  
+  5. create the class in side project 
+  
+  we need create the object of the class to access the methods present in the class
+  
+  ChromeDriver driver =new ChromeDriver();
+  
+  driver object here has access to all the methods of chromedriver  
+  
+  WebDriver driver =new ChromeDriver();  
+  
+  driver object here has access to all the methods of chromedriver  which are defined in the webdriver interface.
+  
+  10th no video veryveryvery importent.
