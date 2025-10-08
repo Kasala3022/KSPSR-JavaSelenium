@@ -1,0 +1,30 @@
+package rahulsettyjava;
+
+public class MultidimensionalArray {
+
+	public static void main(String[] args) {
+
+int a[] []= new int [2][3];
+a[0][0]=2;
+a[0][1]=4;
+a[0][2]=5;
+a[1][0]=3;
+a[1][1]=4;
+a[1][2]=7;
+
+//System.out.println(a[1][0]);
+
+/*int b[][]= {{2,3,4},{3,4,7},{5,2,1}};
+System.out.println(b[2][1]);*/
+//multi demisional array
+for (int i=0;i<2;i++) {//rows
+	
+	for (int j=0;j<3;j++) {//column
+		
+		System.out.println(a[i][j]);
+	}
+}
+
+	}
+
+}

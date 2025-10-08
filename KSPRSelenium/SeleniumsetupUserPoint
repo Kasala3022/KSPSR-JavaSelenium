@@ -1,0 +1,8 @@
+java 17 long term supporter
+
+installation java 
+oracle.com 
+ select The windows 64 bit based on your system variables jdk-17
+ click and install the java 
+ go to local folder java will displays downloded jdk copy the path---->go to system properities in this 
+ select ---->Environment variables--->system variables add new enter the copy jdk path save.
